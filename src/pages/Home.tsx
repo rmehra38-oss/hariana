@@ -214,7 +214,7 @@ export default function Home({
           {/* visual column */}
           <div className="lg:col-span-5 relative aspect-square md:aspect-video lg:aspect-square rounded-3xl overflow-hidden bg-stone-100 shadow-xl border border-cream-300">
             <img
-              src="https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600"
+              src="/src/assets/images/haryana_farms_1780232128905.png"
               alt="Ancestral organic farming"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
@@ -273,7 +273,7 @@ export default function Home({
 
       {/* SECTION 6: WHY CHOOSE US BENTO LISTS */}
       <section className="bg-forest-900 text-cream-100 py-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 relative z-10">
           <div className="text-center space-y-2">
             <span className="text-[10px] font-mono tracking-widest uppercase text-gold-500 font-bold block">HARIANA STANDARD RULES</span>
@@ -366,12 +366,12 @@ export default function Home({
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
           {[
-            "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=300",
-            "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=300",
-            "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=300",
-            "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=300",
-            "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=300",
-            "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=300"
+            "/src/assets/images/haryana_farms_1780232128905.png",
+            "/src/assets/images/hariana_cow_ghee_1780232484134.png",
+            "/src/assets/images/buffalo_ghee_card_1780232683207.png",
+            "/src/assets/images/organic_honey_jar_1780232988804.png",
+            "/src/assets/images/organic_jaggery_card_1780233733642.png",
+            "/src/assets/images/haryana_farms_1780232128905.png"
           ].map((url, i) => (
             <div key={i} className="aspect-square overflow-hidden bg-stone-100 rounded-xl relative group cursor-pointer border border-cream-300">
               <img src={url} referrerPolicy="no-referrer" alt="Life at farm" className="w-full h-full object-cover group-hover:scale-105 duration-500" />
@@ -386,7 +386,7 @@ export default function Home({
       {/* SECTION 9: FOOTER WRARP */}
       <footer className="bg-forest-900 text-cream-100 rounded-3xl p-8 md:p-12 border-t border-gold-500/10 space-y-8 max-w-7xl mx-auto border-2 relative overflow-hidden">
         <div className="absolute inset-0 bg-radial-at-t from-forest-850 to-forest-950 opacity-95"></div>
-        <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         
         {/* Core elements of footer */}
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-4 gap-8">

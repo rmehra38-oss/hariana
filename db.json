@@ -8,11 +8,11 @@
       "category": "cow-ghee",
       "price": 1800,
       "salePrice": 1650,
-      "image": "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/hariana_cow_ghee_1780232484134.png",
       "images": [
-        "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
-        "https://images.unsplash.com/photo-1549590143-d5855148a9d5?auto=format&fit=crop&q=80&w=600"
+        "/src/assets/images/hariana_cow_ghee_1780232484134.png",
+        "/src/assets/images/buffalo_ghee_card_1780232683207.png",
+        "/src/assets/images/haryana_farms_1780232128905.png"
       ],
       "rating": 4.9,
       "reviewsCount": 148,
@@ -57,9 +57,9 @@
       "category": "natural-honey",
       "price": 850,
       "salePrice": 720,
-      "image": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/organic_honey_jar_1780232988804.png",
       "images": [
-        "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+        "/src/assets/images/organic_honey_jar_1780232988804.png",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
       ],
       "rating": 4.8,
@@ -97,9 +97,9 @@
       "category": "buffalo-ghee",
       "price": 1400,
       "salePrice": 1250,
-      "image": "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/buffalo_ghee_card_1780232683207.png",
       "images": [
-        "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
+        "/src/assets/images/buffalo_ghee_card_1780232683207.png",
         "https://images.unsplash.com/photo-1549590143-d5855148a9d5?auto=format&fit=crop&q=80&w=600"
       ],
       "rating": 4.7,
@@ -157,9 +157,9 @@
       "category": "organic-jaggery",
       "price": 290,
       "salePrice": 240,
-      "image": "https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/organic_jaggery_card_1780233733642.png",
       "images": [
-        "https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600"
+        "/src/assets/images/organic_jaggery_card_1780233733642.png"
       ],
       "rating": 4.6,
       "reviewsCount": 38,
@@ -186,9 +186,9 @@
       "category": "organic-spices",
       "price": 350,
       "salePrice": 310,
-      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png",
       "images": [
-        "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"
+        "/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png"
       ],
       "rating": 4.9,
       "reviewsCount": 112,
@@ -309,7 +309,7 @@
       "name": "Organic Jaggery",
       "slug": "organic-jaggery",
       "description": "Chemical-free, traditional jaggery blocks and powders handmade from heirloom sugarcane juice boiled slow.",
-      "image": "https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600"
+      "image": "/src/assets/images/organic_jaggery_card_1780233733642.png"
     },
     {
       "id": "cat_6",
@@ -323,7 +323,7 @@
       "name": "Organic Spices",
       "slug": "organic-spices",
       "description": "Sun-dried and hand-ground spices containing intact natural oils for exquisite taste and therapeutic values.",
-      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"
+      "image": "/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png"
     }
   ],
   "blogs": [
@@ -335,7 +335,7 @@
       "readTime": "5 mins read",
       "date": "May 20, 2026",
       "author": "Shree Dev Hariana",
-      "image": "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+      "image": "/src/assets/images/hariana_cow_ghee_1780232484134.png",
       "tags": [
         "A2 Ghee",
         "Bilona",

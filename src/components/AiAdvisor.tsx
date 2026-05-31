@@ -97,7 +97,7 @@ export default function AiAdvisor({ onClose, products, onAddToCart, onQuickView 
       
       {/* Header section */}
       <div className="bg-forest-900 text-cream-100 p-5 border-b border-gold-500/25 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         <div className="relative z-10 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gold-500/10 border border-gold-500 flex items-center justify-center text-gold-400">

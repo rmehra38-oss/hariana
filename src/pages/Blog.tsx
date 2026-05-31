@@ -160,7 +160,7 @@ export default function Blog({ blogs }: BlogProps) {
 
           {/* Bottom Callout banner */}
           <div className="bg-forest-900 text-cream-100 rounded-3xl p-8 border border-gold-500/20 grid grid-cols-1 md:grid-cols-12 gap-6 items-center relative overflow-hidden">
-            <div className="absolute inset-x-0 top-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+            <div className="absolute inset-x-0 top-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
             
             <div className="md:col-span-8 space-y-1.5 relative z-10">
               <h3 className="font-serif font-black text-lg text-white">Subscribe to Ayurveda Circular</h3>

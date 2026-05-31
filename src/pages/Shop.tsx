@@ -83,7 +83,7 @@ export default function Shop({
       
       {/* Dynamic Header details */}
       <div className="bg-forest-900 text-cream-100 p-8 rounded-3xl border border-gold-500/20 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=650')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         <div className="relative z-10 space-y-2 text-center md:text-left">
           <span className="text-[10px] font-mono tracking-widest uppercase text-gold-400 font-bold">100% TRADITIONAL SEED SOURCED</span>
           <h1 className="text-3xl font-serif font-bold text-white tracking-tight">Ancient Hariana Sourcing</h1>

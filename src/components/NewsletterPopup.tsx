@@ -45,7 +45,7 @@ export default function NewsletterPopup() {
 
         {/* Hero Illustration Background */}
         <div className="bg-forest-900 text-cream-100 p-8 text-center relative overflow-hidden">
-          <div className="absolute inset-0 opacity-15 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')] bg-cover bg-center"></div>
+          <div className="absolute inset-0 opacity-20 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
           <Sparkles className="w-8 h-8 text-gold-500 mx-auto mb-3 animate-bounce" />
           <p className="text-gold-500 font-mono text-[10px] tracking-widest uppercase mb-1">HARIANA ORGANIC ESSENTIALS</p>
           <h3 className="text-2xl font-serif font-semibold tracking-tight text-white mb-2">Claim Your ₹150 Voucher</h3>

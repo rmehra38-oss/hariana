@@ -13,7 +13,7 @@ export default function About() {
       
       {/* Cinematic Banner Intro */}
       <section className="bg-forest-900 text-cream-100 p-8 md:p-14 rounded-3xl border border-gold-500/20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=700')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-20 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         
         <div className="md:col-span-8 space-y-4 relative z-10">
           <span className="text-[10px] font-mono tracking-widest uppercase text-gold-400 font-bold block">SINCE 1982 CHRONICLES</span>
@@ -64,7 +64,7 @@ export default function About() {
 
         <div className="relative aspect-square md:aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-xl border border-cream-300">
           <img
-            src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+            src="/src/assets/images/haryana_farms_1780232128905.png"
             alt="Organic Indian cattle care"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
@@ -85,7 +85,7 @@ export default function About() {
 
       {/* Sourcing maps village locator block */}
       <section className="bg-forest-900 text-cream-100 rounded-3xl p-6 md:p-10 border border-gold-500/20 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
         
         <div className="lg:col-span-8 space-y-4 relative z-10 font-sans">
           <span className="text-[10px] font-mono tracking-widest uppercase text-gold-500 font-bold block flex items-center gap-1">

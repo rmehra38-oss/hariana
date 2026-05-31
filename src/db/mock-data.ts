@@ -48,7 +48,7 @@ export const CATEGORIES: Category[] = [
     name: "Organic Spices",
     slug: "organic-spices",
     description: "Sun-dried and hand-ground spices containing intact natural oils for exquisite taste and therapeutic values.",
-    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"
+    image: "/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png"
   }
 ];
 
@@ -235,8 +235,8 @@ export const PRODUCTS: Product[] = [
     category: "organic-spices",
     price: 350,
     salePrice: 310,
-    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600",
-    images: ["https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"],
+    image: "/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png",
+    images: ["/src/assets/images/lakadong_turmeric_1780234197_card_1780234946693.png"],
     rating: 4.9,
     reviewsCount: 112,
     reviews: [
@@ -345,7 +345,7 @@ Integrating A2 Bilona ghee into your daily diet lubricates your tissue joints, i
     readTime: "5 mins read",
     date: "May 20, 2026",
     author: "Shree Dev Hariana",
-    image: "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+    image: "/src/assets/images/hariana_cow_ghee_1780232484134.png",
     tags: ["A2 Ghee", "Bilona", "Ayurvedic Nutrition", "Wellness"],
     category: "Cow Ghee"
   },

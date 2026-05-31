@@ -57,7 +57,7 @@ export default function Contact() {
         {/* Info Column (Left) */}
         <div className="lg:col-span-5 space-y-6">
           <div className="bg-forest-900 text-cream-100 rounded-3xl p-6 md:p-8 space-y-6 border border-gold-500/20 relative overflow-hidden">
-            <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=500')] bg-cover"></div>
+            <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
             
             <div className="space-y-1 relative z-10">
               <h3 className="font-serif font-black text-lg text-white">Direct Sourcing Office</h3>

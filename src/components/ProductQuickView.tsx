@@ -116,7 +116,7 @@ export default function ProductQuickView({
 
           {/* Core Botanical attributes */}
           <div className="bg-forest-900 text-cream-100 rounded-xl p-5 border border-gold-500/20 mt-6 space-y-3 relative overflow-hidden">
-            <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')] bg-cover"></div>
+            <div className="absolute inset-0 opacity-15 bg-[url('/src/assets/images/haryana_farms_1780232128905.png')] bg-cover bg-center"></div>
             <div className="relative z-10 flex items-start gap-3">
               <Shield className="w-5 h-5 text-gold-500 shrink-0 mt-0.5" />
               <div>
