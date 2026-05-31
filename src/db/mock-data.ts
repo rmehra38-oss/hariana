@@ -368,7 +368,7 @@ Large industries heat honey beyond 70°C to halt natural crystallization. This t
     readTime: "4 mins read",
     date: "May 15, 2026",
     author: "Dr. Anjali Sen",
-    image: "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+    image: "/src/assets/images/organic_honey_blog_1780235451539.png",
     tags: ["Raw Honey", "Chemical Free", "Immunity", "Eco Sourcing"],
     category: "Natural Honey"
   },

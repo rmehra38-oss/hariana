@@ -4,6 +4,7 @@ import {
   HelpCircle, Sparkles, RefreshCw, Star, Info, ShieldAlert
 } from "lucide-react";
 import { Product, Category, BlogPost, CartItem, Coupon } from "./types";
+import { CATEGORIES, PRODUCTS, BLOGS } from "./db/mock-data";
 
 // Page modules
 import Home from "./pages/Home";
@@ -24,12 +25,13 @@ import ExitIntentPopup from "./components/ExitIntentPopup";
 import ProductQuickView from "./components/ProductQuickView";
 import AiAdvisor from "./components/AiAdvisor";
 import AdminPanel from "./components/AdminPanel";
+import AdminPanelComponent from "./components/AdminPanel";
 
 export default function App() {
   // DB Lists state
-  const [products, setProducts] = useState<Product[]>([]);
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [blogs, setBlogs] = useState<BlogPost[]>([]);
+  const [products, setProducts] = useState<Product[]>(PRODUCTS);
+  const [categories, setCategories] = useState<Category[]>(CATEGORIES);
+  const [blogs, setBlogs] = useState<BlogPost[]>(BLOGS);
   const [orders, setOrders] = useState<any[]>([]);
 
   // Navigation / Auth States
@@ -61,7 +63,7 @@ export default function App() {
         fetch("/api/orders")
       ]);
 
-      if (resProducts.ok) setProducts(await resProducts.ok ? await resProducts.json() : []);
+      if (resProducts.ok) setProducts(await resProducts.json());
       if (resCategories.ok) setCategories(await resCategories.json());
       if (resBlogs.ok) setBlogs(await resBlogs.json());
       if (resOrders.ok) setOrders(await resOrders.json());
