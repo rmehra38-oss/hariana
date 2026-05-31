@@ -1,0 +1,6 @@
+{
+  "name": "Hariana Organic Farm",
+  "description": "An ultra-premium full-stack luxury organic food and ayurvedic wellness e-commerce brand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

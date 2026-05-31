@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..950;1,400..950&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-forest-950: #0e1e14;
+  --color-forest-900: #1B3022; /* Editorial Deep Forest Green */
+  --color-forest-800: #253D2C;
+  --color-forest-750: #2b4534;
+  --color-forest-700: #334F3C;
+  --color-forest-600: #425F4C;
+  --color-forest-500: #55725F;
+  
+  --color-cream-100: #FCFAF7; /* Editorial Background */
+  --color-cream-200: #F3EFE9; /* Editorial Beige Section Tint */
+  --color-cream-300: #E8E4DD; /* Editorial Strong Beige / Borders */
+  
+  --color-gold-300: #E2D3B8;
+  --color-gold-400: #D3BA85;
+  --color-gold-500: #C5A059; /* Editorial Signature Gold */
+  --color-gold-600: #A8833E;
+}
+
+/* Custom styles for luxury organic aesthetic */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-100);
+  color: var(--color-forest-950);
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #245244;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #112F26;
+}
+
+/* Custom subtle animation overlays */
+.premium-gradient-overlay {
+  background: linear-gradient(180deg, rgba(17, 47, 38, 0.1) 0%, rgba(10, 31, 26, 0.8) 100%);
+}
+
+.luxury-glow {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+/* Custom premium loading effect */
+@keyframes bilona-spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin-bilona {
+  animation: bilona-spin 3s ease-in-out infinite;
+}

@@ -1,0 +1,418 @@
+import { Product, Category, BlogPost, Coupon } from "../types";
+
+export const CATEGORIES: Category[] = [
+  {
+    id: "cat_1",
+    name: "A2 Cow Ghee",
+    slug: "cow-ghee",
+    description: "Traditionally prepared from grass-fed Gir cow A2 milk using the ancient Vedic Bilona process (churned bi-directionally).",
+    image: "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_2",
+    name: "Buffalo Ghee",
+    slug: "buffalo-ghee",
+    description: "Rich, aromatic white ghee made from Murrah buffalo milk, churned with old-world techniques for superb granular texture.",
+    image: "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_3",
+    name: "Natural Honey",
+    slug: "natural-honey",
+    description: "Raw, unpasteurized, single-origin honey gathered by native bees from deep forests and wild floral pastures.",
+    image: "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_4",
+    name: "Cold Pressed Oils",
+    slug: "cold-pressed-oils",
+    description: "Wood-pressed oilseeds extracted at low temperatures in traditional wooden Kolhus to fully retain nutrients, taste, and aroma.",
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_5",
+    name: "Organic Jaggery",
+    slug: "organic-jaggery",
+    description: "Chemical-free, traditional jaggery blocks and powders handmade from heirloom sugarcane juice boiled slow.",
+    image: "https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_6",
+    name: "Organic Pulses",
+    slug: "organic-pulses",
+    description: "Unpolished, local farm-grown pulses loaded with native enzymes, protein, and dietary fibers.",
+    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "cat_7",
+    name: "Organic Spices",
+    slug: "organic-spices",
+    description: "Sun-dried and hand-ground spices containing intact natural oils for exquisite taste and therapeutic values.",
+    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"
+  }
+];
+
+export const PRODUCTS: Product[] = [
+  {
+    id: "prod_1",
+    name: "Premium Vedic A2 Gir Cow Ghee (Bilona)",
+    tagline: "Granular Liquid Gold • Churned from Whole Milk Curd",
+    description: "Our crown jewel. Crafted exclusively from the high-protein A2 milk of free-grazing Gir cows in the Hariana region. Prepared in small batches using the legendary Vedic Bilona method: fresh milk is boiled, curdled overnight, and the whole curd is churned bi-directionally with wooden churners at sunrise. The butter is then slow-melted on firewood to yield highly granular, nutty, intensely aromatic ghee rich in butyric acid and gut-healing vitamins.",
+    category: "cow-ghee",
+    price: 1800,
+    salePrice: 1650,
+    image: "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+    images: [
+      "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1549590143-d5855148a9d5?auto=format&fit=crop&q=80&w=600"
+    ],
+    rating: 4.9,
+    reviewsCount: 148,
+    reviews: [
+      {
+        id: "rev_1",
+        userName: "Aarav Sharma",
+        rating: 5,
+        comment: "Absolutely pristine quality! The aroma takes me straight back to my childhood village visits. Highly granular and tastes fantastic.",
+        date: "2026-05-10",
+        verifiedPurchase: true
+      },
+      {
+        id: "rev_2",
+        userName: "Meera Iyer",
+        rating: 5,
+        comment: "I have tried multiple A2 brands, but Hariana Farm Ghee sets a class of its own. Beautiful color and genuine digestive benefits.",
+        date: "2026-05-18",
+        verifiedPurchase: true
+      }
+    ],
+    stock: 25,
+    weight: "500ml",
+    bilonaProcess: true,
+    benefits: [
+      "Boosts metabolism & cleanses arteries",
+      "Rich in vitamins A, D, E, K and natural butyrate",
+      "Improves digestion & lubricates joints",
+      "Zero trans-fats, preservative-free"
+    ],
+    ingredients: "100% Pure A2 Gir Cow Milk Fat derived traditionally using the Vedic Bilona churned process.",
+    storage: "Store in a cool, dry place. Keep away from direct sunlight. Do not refrigerate.",
+    featured: true,
+    isBestseller: true,
+    subscriptionAvailable: true
+  },
+  {
+    id: "prod_2",
+    name: "Golden Nectar Wild Forest Honey",
+    tagline: "Raw • Unfiltered • Hand-Harvested Wild Jungle Honey",
+    description: "Sourced from the deep natural reserves of the Shivalik forest range. Our honey is gathered ethically by indigenous honey hunters from wild hives of Apis Dorsata bees. Never heated, micro-filtered, or adulterated with sugar syrups, this raw honey retains all natural pollens, medicinal enzymes, and restorative biochemicals.",
+    category: "natural-honey",
+    price: 850,
+    salePrice: 720,
+    image: "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+    images: [
+      "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    rating: 4.8,
+    reviewsCount: 92,
+    reviews: [
+      {
+        id: "rev_3",
+        userName: "Rohan Verma",
+        rating: 5,
+        comment: "The floral complexity in this honey is incredible. You can instantly distinguish it from supermarket pasteurized jars.",
+        date: "2026-05-12",
+        verifiedPurchase: true
+      }
+    ],
+    stock: 40,
+    weight: "500g",
+    bilonaProcess: false,
+    benefits: [
+      "Enriched with natural pollens & enzymes",
+      "Natural immunity booster & cough relieving properties",
+      "Powerful antioxidant profile",
+      "Sourced without harming the wild hives & colony eco-systems"
+    ],
+    ingredients: "100% Organic Wildflower Forest Honey.",
+    storage: "Store at room temperature. Honey may crystallize naturally over time; simply place in warm water to reliquefy.",
+    featured: true,
+    isBestseller: true,
+    subscriptionAvailable: true
+  },
+  {
+    id: "prod_3",
+    name: "Traditional Murrah Buffalo Ghee (Amrit)",
+    tagline: "Bold Robust Aroma • Heavenly Creamy Granules",
+    description: "Made from white curd of premium native breed Murrah Buffaloes, pastured daily on organic green alfalfa and dry oats. Prepared via slow wood-firing, this ghee delivers unmatched creaminess, high-density essential health-fats, and distinct traditional texture perfect for baking and heavy Indian delicacies.",
+    category: "buffalo-ghee",
+    price: 1400,
+    salePrice: 1250,
+    image: "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
+    images: [
+      "https://images.unsplash.com/photo-1622484211140-7e1329d47917?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1549590143-d5855148a9d5?auto=format&fit=crop&q=80&w=600"
+    ],
+    rating: 4.7,
+    reviewsCount: 65,
+    reviews: [],
+    stock: 30,
+    weight: "1 Litre",
+    bilonaProcess: true,
+    benefits: [
+      "Supreme source of healthy CLA & fat-soluble vitamins",
+      "Ideal for physical energy, body builders, and natural muscle recovery",
+      "Rich deep aroma and slow burn granular texture",
+      "Supports core nervous health according to Ayurveda"
+    ],
+    ingredients: "100% Pure Murrah Buffalo Milk Butterfat.",
+    storage: "Airtight container in dry pantry. Do not put wet spoon inside.",
+    featured: false,
+    isBestseller: false,
+    subscriptionAvailable: true
+  },
+  {
+    id: "prod_4",
+    name: "Wood-Pressed Yellow Mustard Oil",
+    tagline: "Cold Extracted in Wooden Kolhus • Rich pungent aroma",
+    description: "Extracted gently from organic bold yellow mustard seeds in premium traditional wood mills (wooden Ghani). Since there is zero heat generated during extraction, all core nutrients, authentic spice punch, and high monosaturated fatty acids remain tightly protected.",
+    category: "cold-pressed-oils",
+    price: 420,
+    salePrice: 380,
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+    images: ["https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"],
+    rating: 4.8,
+    reviewsCount: 54,
+    reviews: [],
+    stock: 50,
+    weight: "1 Litre",
+    bilonaProcess: false,
+    benefits: [
+      "Extremely heart friendly with balanced Omega-3 & Omega-6 ratios",
+      "Zero chemicals, argemone oil or solvent extraction agents",
+      "Improves digestion & imparts fantastic taste to daily pickles and stir-fries",
+      "Anti-fungal properties for healthy skin massage"
+    ],
+    ingredients: "100% Organic Cold Wood-Pressed Yellow Mustard seeds.",
+    storage: "Store in cool dark glass bottles or tin container.",
+    featured: true,
+    isBestseller: false
+  },
+  {
+    id: "prod_5",
+    name: "Handmade Liquid Sugarcane Jaggery Powder",
+    tagline: "Iron Rich Heirloom Sugarcane Sweetener",
+    description: "Our pure organic Jaggery Powder is created from heirloom varieties of sugarcane, grown organically without chemical weedicides. Sugarcane juice is boiled in a multi-stage traditional iron vessel of Hariana villages, clarified using natural wild okra stems, and hand-beaten to a fine rich golden-brown powder.",
+    category: "organic-jaggery",
+    price: 290,
+    salePrice: 240,
+    image: "https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600",
+    images: ["https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&q=80&w=600"],
+    rating: 4.6,
+    reviewsCount: 38,
+    reviews: [],
+    stock: 80,
+    weight: "1kg",
+    bilonaProcess: false,
+    benefits: [
+      "Natural iron tonic & blood purifier",
+      "Excellent alternative to white refined sugar",
+      "No chemical sulfur, synthetic colors, or heavy-metal processing",
+      "Boosts lung immunity and digestive enzyme secretion"
+    ],
+    ingredients: "100% Sugarcane Juice Concentrate.",
+    storage: "Keep in airtight containers in dry, dry kitchen spaces as moisture causes lumps.",
+    featured: false,
+    isBestseller: false
+  },
+  {
+    id: "prod_6",
+    name: "Premium Stone-Ground Lakadong Turmeric",
+    tagline: "Ultra-High Curcumin (>7%) from Lakadong Hills",
+    description: "Grown in pure, chemical-free forest soils of North-Eastern hills, our Lakadong turmeric is famous for its massive curcumin index (exceeding 7-9%). Hand-cleaned, sun-dried, and ground slowly in native stone grinding mortars (dhiki) at cold parameters to yield intense therapeutic value.",
+    category: "organic-spices",
+    price: 350,
+    salePrice: 310,
+    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600",
+    images: ["https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600"],
+    rating: 4.9,
+    reviewsCount: 112,
+    reviews: [
+      {
+        id: "rev_4",
+        userName: "Dr. Anjali Sen",
+        rating: 5,
+        comment: "As an Ayurvedic practitioner, I can attest to its color, strong medicinal taste, and high efficacy. It's the absolute best for golden milk.",
+        date: "2026-05-22",
+        verifiedPurchase: true
+      }
+    ],
+    stock: 60,
+    weight: "250g",
+    bilonaProcess: false,
+    benefits: [
+      "Extremely high curcumin density provides maximum anti-inflammatory action",
+      "Strong cell defense and natural complexion glow",
+      "Zero starch fillers, artificial lead-chromate dyes, or preservatives",
+      "Sourced directly from native tribal farmers"
+    ],
+    ingredients: "100% Pure Organic Lakadong Turmeric Root.",
+    storage: "Store in a shaded glass jar, tightly sealed.",
+    featured: true,
+    isBestseller: true
+  },
+  {
+    id: "prod_7",
+    name: "Organic Heirloom Unpolished Chana Dal",
+    tagline: "Hand-milled • Native Seed Unpolished Desi Lentils",
+    description: "Sown using native seeds, our organic Chana dal is unpolished, retaining its external nutrient-dense skin coat. Milled in classic stone chakkis of the village to ensure the natural enzymes and protein fibers do not turn rancid.",
+    category: "organic-pulses",
+    price: 260,
+    salePrice: 220,
+    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600",
+    images: ["https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"],
+    rating: 4.5,
+    reviewsCount: 29,
+    reviews: [],
+    stock: 100,
+    weight: "1kg",
+    bilonaProcess: false,
+    benefits: [
+      "Natural protein with native low glycemic profile",
+      "High dietary fibers promote digestive longevity",
+      "No chemical oil polishes, colorings, or preservation dust",
+      "Easy to cook with rich authentic legume aroma"
+    ],
+    ingredients: "100% Organic Unpolished Split Bengal Gram Dal.",
+    storage: "Airtight canister. Add bay leaf or cloves to prevent pests naturally.",
+    featured: false,
+    isBestseller: false
+  },
+  {
+    id: "prod_8",
+    name: "Pure Wood-Pressed Virgin Coconut Oil",
+    tagline: "Nariyal Amrit • Raw Centrifuged Coconut Elixir",
+    description: "Extracted from premium fresh coconuts sourced from chemical-free coastal groves. Made without using sulfur fumes or bleaching agents. The fresh dry kernels (copra) are put through slow wooden mills at 35°C to preserve lauric acid, delicious tropical scent, and delicate antioxidants.",
+    category: "cold-pressed-oils",
+    price: 580,
+    salePrice: 510,
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+    images: ["https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"],
+    rating: 4.8,
+    reviewsCount: 46,
+    reviews: [],
+    stock: 22,
+    weight: "500ml",
+    bilonaProcess: false,
+    benefits: [
+      "Immense content of MCTs (medium-chain triglycerides)",
+      "Outstanding premium oil-pulling therapy for oral hygiene",
+      "Deep lightweight hydration for luxurious hair & scalp",
+      "Safe and premium base for high-temperature gourmet baking"
+    ],
+    ingredients: "100% Raw Virgin Cold-Pressed Coconut Kernel extracts.",
+    storage: "Store in dry place. Solidifies below 24°C, which is normal and shows pure raw quality.",
+    featured: false,
+    isBestseller: false
+  }
+];
+
+export const BLOGS: BlogPost[] = [
+  {
+    id: "blog_1",
+    title: "Understanding A2 Cow Ghee: The Miraculous Vedic Bilona Process",
+    excerpt: "Why is Vedic Bilona Ghee considered 'Granular Gold' in ancient Ayurvedic text and how does it supercharge your cellular immunity?",
+    content: `For thousands of years, Ayurveda has revered pure cow's ghee as **'Amrita'** (liquid gold). However, not all ghees on the shelf are created equal. Modern industrial ghee is created using milk fat or heavy cream centrifuges where milk proteins are heated aggressively once, destroying their core nutritional enzymes. 
+
+The ancient Vedic **Bilona Process** is completely different, slow-paced, and intensely beautiful.
+Here is the sacred blueprint of how we craft our ghee:
+
+### 1. Ethical Green Grazing
+Our Gir cows are allowed to pasture freely on natural grass, herbs, and organic fodder. Their diet contains diverse plants which directly synthesize rich fat-soluble minerals and healthy CLA into their rich milk.
+
+### 2. Whole Curd Fermentation
+Instead of extracting cream from milk, the A2 milk is boiled slowly on earthen pots, cooled, and cultured with natural curd starter overnight. This allows trillions of beneficial Lactobacilli bacteria to break down milk proteins (lactose and casein), making it beautifully light on human digestion.
+
+### 3. Bidirectional Bi-Churning
+The curd is placed into massive earthen vessels at dawn and churned bi-directionally using wooden churners. This splits the butterfat and yields fresh buttermilk.
+
+### 4. Golden Slow Simmering
+The fresh butter is gathered manually and simmered slow over low woodfire in brass pots. This slowly clarifies out milk solids and creates sweet-smelling, golden, intensely grainy, medicinal ghee.
+
+Integrating A2 Bilona ghee into your daily diet lubricates your tissue joints, improves your gut microbiome, cleanses clogged toxins, and provides optimal metabolic energy.`,
+    readTime: "5 mins read",
+    date: "May 20, 2026",
+    author: "Shree Dev Hariana",
+    image: "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&q=80&w=600",
+    tags: ["A2 Ghee", "Bilona", "Ayurvedic Nutrition", "Wellness"],
+    category: "Cow Ghee"
+  },
+  {
+    id: "blog_2",
+    title: "The Sweet Truth About Wild Forest Raw Honey vs. Commercial Jars",
+    excerpt: "Most honey in supermarkets is pasteurized corn syrup under disguise. Learn what raw wildflowers do for immunoprotection.",
+    content: `Open your kitchen pantry and look at your jar of honey. Is it crystal-clear, transparent, and always runny perfectly? If yes, it is highly likely that your honey is chemically micro-processed and blended with ultra-sweet rice or high-fructose corn syrup.
+
+### What is Real Raw Honey?
+Pure honey is a living ecosystem of enzymes, pollens, and organic wildflower resins. Sourced straight from natural forest hives, it has an opaque amber glow, complex woody taste levels, and variable crystallizing states.
+
+### The Dangers of Commercial Honey Heating
+Large industries heat honey beyond 70°C to halt natural crystallization. This thermal blast destroys native minerals and completely deactivates anti-bacterial propolis enzymes. Furthermore, commercial farming confines honeybees in mono-cultural fields treating them with broad antibiotics.
+
+### True Health Benefits of Wild Raw Forest Honey:
+* **Rich Pollen Index:** Contains traces of local forest flowers, which naturally train your allergen immunity.
+* **Super Enzymes:** Loaded with diastase, invertase, and glucose oxidase to stimulate skin repair, clear digestion, and deep throat defense.
+* **Low Glycemic Comfort:** Pure organic honey has balanced glucose and fructose percentages, providing uniform brain-endorphin fuel without standard sugar spikes.`,
+    readTime: "4 mins read",
+    date: "May 15, 2026",
+    author: "Dr. Anjali Sen",
+    image: "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=600",
+    tags: ["Raw Honey", "Chemical Free", "Immunity", "Eco Sourcing"],
+    category: "Natural Honey"
+  },
+  {
+    id: "blog_3",
+    title: "Cold Pressed Wood Ghani Oils: Squeezing Nutrients The Antique Way",
+    excerpt: "Why the mechanical high-heat solvent extraction of modern cooking oils produces systemic arterial inflammation, and why Cold-Pressed Kolhu is key.",
+    content: `Turn your regular refining bottles backwards and you'll see a series of chemical processes: hexane wash, deodorized thermal steam, phosphoric de-gumming, and bleaching clays. High-production refined seed oils are literally dead fats, stripped of natural vitamins to extend extreme shelf life on supermarket blocks.
+
+### The Alchemy of Wooden Kolhu Ghani (Wood-Pressing)
+In ancient times, village communities used wood Ghani mills carved from native neem or vagai wood trunks. A slow ox rotated the heavy press to squeeze oilseeds at ambient temperature.
+
+* **Under 35°C Extrusion:** Cold wood-pressing guarantees the oil seeds do not overheat. Heat creates toxic free radicals and trans-fats.
+* **Intact Vitamin E:** Unprocessed mustard, groundnut, and coconut oils retain complete natural tocopherols, lecithin, and healthy fats that fortify your cell walls.
+* **Authentic Flavor & Smell:** A spoonful of cold-pressed yellow mustard or sesame oil carries bold, fragrant, premium earthy notes that change the standard texture and feel of every dish.`,
+    readTime: "6 mins read",
+    date: "May 10, 2026",
+    author: "Karan Chaudhary",
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+    tags: ["Cold Pressed Oils", "Wood Ghani", "Healthy Heart", "Organic Life"],
+    category: "Cold Pressed Oils"
+  }
+];
+
+export const COUPONS: Coupon[] = [
+  {
+    code: "HARIANA10",
+    discountPercentage: 10,
+    minOrderAmount: 1000,
+    description: "Get 10% off on premium organic essentials. Minimum order of ₹1000.",
+    active: true
+  },
+  {
+    code: "BILONA20",
+    discountPercentage: 20,
+    minOrderAmount: 3000,
+    description: "Save 20% on orders above ₹3000. Perfect to stock up traditional Bilona ghees.",
+    active: true
+  },
+  {
+    code: "PUREHEALTH",
+    discountPercentage: 15,
+    minOrderAmount: 1500,
+    description: "Special wellness discount of 15% on orders above ₹1500.",
+    active: true
+  }
+];
